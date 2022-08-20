@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.fontshare.com/v2/css?f[]=chillax@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="weather-card loading" id="weather-card">
+    <input type="text" class="cherche" name="cherche" id="cherche" placeholder="Search for a city">
+    <label for="cherche" class="search" id="icon-search"><img src="/src/icons8-search-24.png"></label>
+    <h3 id="header" class="header"></h3>
+    <p class="temperature" id="temperature"></p>
+    <button type="button" id="fahrenheit">Fahrenheit</button>
+    <img class="icon" id="icon" src=""/>
+    <li>
+        <ul id="description"></ul>
+        <ul id="humidity"></ul>
+        <ul id="wind"></ul>
+    </li>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
